@@ -1,0 +1,6 @@
+c:\users\steven\documents\visual studio 2012\Projects\Avenue-Workflow.ah.co.uk\AvenueHeights\obj\Debug\AvenueHeights.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Avenue Heights\Avenue Classes\AvenueHeights\bin\Debug\AvenueHeights.dll
+C:\Users\Steven\Documents\Avenue Heights\Avenue Classes\AvenueHeights\bin\Debug\AvenueHeights.pdb
+C:\Users\Steven\Documents\Avenue Heights\Avenue Classes\AvenueHeights\obj\Debug\AvenueHeights.dll
+C:\Users\Steven\Documents\Avenue Heights\Avenue Classes\AvenueHeights\obj\Debug\AvenueHeights.pdb
+C:\Users\Steven\Documents\Avenue Heights\Avenue Classes\AvenueHeights\obj\Debug\AvenueHeights.csprojResolveAssemblyReference.cache

@@ -1,0 +1,42 @@
+﻿body {
+    margin: 0px;
+}
+
+div.control-bar-wrapper {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(0, 38, 150);
+}
+
+div.control-bar-inner {
+    height: inherit;
+    margin-top:-10px;
+}
+
+div.control-bar-inner > ul{
+    margin:15px;
+    padding:0;
+    overflow:hidden;
+    list-style-type:none;
+}
+    div.control-bar-inner > ul > li {
+float:left;
+    }
+
+li > div.divider {
+    border: 1px solid rgb(0,50,50);
+    height: 40px;
+    margin: 5px 10px;
+    width: 1px;
+    background-color: rgb(100,255,255);
+}
+
+div.control-bar-wrapper > div.control-bar-inner > ul > li > li.logo {
+    margin: 5px;
+}
+
+li.logo > img {
+    height: 40px;
+    margin:2px;
+}

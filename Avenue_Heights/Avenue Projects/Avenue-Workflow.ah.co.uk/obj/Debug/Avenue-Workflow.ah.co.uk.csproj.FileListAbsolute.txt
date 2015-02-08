@@ -1,0 +1,11 @@
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\Avenue-Workflow.ah.co.uk.dll
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\Avenue-Workflow.ah.co.uk.pdb
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\AvenueHeights.dll
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\AvenueWorkflow.dll
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\AvenueHeights.pdb
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\AvenueWorkflow.pdb
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\obj\Debug\Avenue-Workflow.ah.co.uk.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\obj\Debug\Avenue-Workflow.ah.co.uk.dll
+C:\Users\Steven\Documents\Avenue Heights\Avenue Projects\Avenue-Workflow.ah.co.uk\obj\Debug\Avenue-Workflow.ah.co.uk.pdb

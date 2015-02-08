@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="css/AglityStyle.css" />
+    <link href="FontAwesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <form runat="server">
+        <div class="a-back-header"></div>
+        <div class="a-container-inner">
+            <div class="a-front-header-logo">
+                <img src="Images/logo-small.png" />
+            </div>
+            <div class="a-front-header-nav">
+                <ul>
+                    <li>
+                        <ul>
+                            Personal Projects <i class="fa fa-caret-down pull-right"></i>
+                            <li>Personal Projects
+                            </li>
+                            <li>Iteration 2
+                            </li>
+                            <li>Iteration 3
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul style="margin-left: -1px;">
+                            Sprint <i class="fa fa-caret-down pull-right"></i>
+                            <li>15/04/14 - 18/04/14
+                            </li>
+                            <li>Time Period 2
+                            </li>
+                            <li>Time Period 3
+                            </li>
+                            <li>Time Period 4
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu">
+                        <ul>
+                            <img src="Images/logo-small.png" />
+                            Steven Cooper                           
+                            <li>Menu Item 1
+                            </li>
+                            <li>Menu Item 2
+                            </li>
+                            <li>Menu Item 3
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="a-progressbar">
+                <span class="a-progressbar-inner"></span>
+                <span class="a-progressbar-inner-proj"></span>
+            </div>
+            <div class="a-current-iteration">
+                Personal Projects: Wednesday 6th August - Tuesday 12th August
+            </div>
+            <div class="a-current-task">
+                Personal Project Task - 2:32
+            </div>
+            <div class="a-main">
+                    <div class="a-story-filters">
+                        <ul>
+                            <li>
+                                <i class="fa fa-search"></i>Search:
+                                <input type="text" style="width: 396px;" /></li>
+                            <li style="margin: 5px 10px;"><a class="btn-small btn-show-all selected" style="margin-left: 173px;">Show All Stories</a></li>
+                            <li>
+                                <div>
+                                    <a class="btn-small btn-add-story">Add Story</a><div style="display: none;"><i class="fa fa-reply-all"></i></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="a-story-add" style="display: none;">
+                        Story Name:
+                        <input type="text" style="width: 366px;" />
+                        <a class="btn-small btn-add">Add</a>
+                    </div>
+                <div id="stories">
+                    <table class="story-table">
+                        <caption><i class="fa fa-comment"></i>Testing<i class="fa fa-times pull-right delete"></i></caption>
+                        <tr>
+                            <th>Task Name</th>
+                            <th>Time Estimated</th>
+                            <th>Time Taken</th>
+                            <th>Task Status</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                                        <table class="story-table">
+                        <caption><i class="fa fa-comment"></i>Testing<i class="fa fa-times pull-right delete"></i></caption>
+                        <tr>
+                            <th>Task Name</th>
+                            <th>Time Estimated</th>
+                            <th>Time Taken</th>
+                            <th>Task Status</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" value="Testing" class="x-large" /></td>
+                            <td>
+                                <input type="text" value="2:00" class="x-small" /></td>
+                            <td>
+                                <input type="text" value="1:30" class="x-small" /></td>
+                            <td>
+                                <select>
+                                    <option value="Paused">Paused</option>
+                                    <option value="Start">Start</option>
+                                    <option value="Finish">Finish</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+
+        $('.btn-add-story').hover(function () {
+            var a = $(this).parent().children('div');
+            if (!a.hasClass('selected')) a.fadeToggle();
+        });
+
+        $('.btn-show-all').click(function () {
+            $(this).addClass('selected');
+            $('.story-table').fadeIn("linear");
+        });
+
+        $('.btn-add-story').click(function () {
+            $(this).parent().children('div').toggleClass('selected');
+            $('.a-story-add').toggle("slide");
+            this.innerHTML === "Add Story" ? this.innerHTML = "Close" : this.innerHTML = "Add Story";
+        });
+
+        $('caption').click(function () {
+            $(this).parent().children('tbody').fadeToggle("linear");
+        });
+
+        $('.delete').click(function () {
+            $(this).closest('table').fadeToggle("linear");
+            $('.btn-show-all').removeClass('selected');
+        });
+    </script>
+</body>
+</html>

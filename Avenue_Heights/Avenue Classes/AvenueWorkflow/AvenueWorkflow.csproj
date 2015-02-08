@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F2914E1-F567-4295-9CF3-76C875AE6D63}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Avenue.Workflow</RootNamespace>
+    <AssemblyName>AvenueWorkflow</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Access\Iteration.cs" />
+    <Compile Include="Access\Iterations.cs" />
+    <Compile Include="Access\IterationTimePeriod.cs" />
+    <Compile Include="Access\IterationTimePeriods.cs" />
+    <Compile Include="Access\IterationType.cs" />
+    <Compile Include="Access\IterationTypes.cs" />
+    <Compile Include="Access\Stories.cs" />
+    <Compile Include="Access\Story.cs" />
+    <Compile Include="Access\StoryType.cs" />
+    <Compile Include="Access\StoryTypes.cs" />
+    <Compile Include="Access\Task.cs" />
+    <Compile Include="Access\Tasks.cs" />
+    <Compile Include="Access\TaskStatus.cs" />
+    <Compile Include="Access\TaskStatuses.cs" />
+    <Compile Include="Access\Theme.cs" />
+    <Compile Include="Access\Themes.cs" />
+    <Compile Include="Access\User.cs" />
+    <Compile Include="Access\UserIteration.cs" />
+    <Compile Include="Access\UserIterations.cs" />
+    <Compile Include="Access\Users.cs" />
+    <Compile Include="Data\Iteration.cs" />
+    <Compile Include="Data\Iterations.cs" />
+    <Compile Include="Data\IterationTimePeriod.cs" />
+    <Compile Include="Data\IterationTimePeriods.cs" />
+    <Compile Include="Data\IterationType.cs" />
+    <Compile Include="Data\IterationTypes.cs" />
+    <Compile Include="Data\Stories.cs" />
+    <Compile Include="Data\Story.cs" />
+    <Compile Include="Data\StoryType.cs" />
+    <Compile Include="Data\StoryTypes.cs" />
+    <Compile Include="Data\Task.cs" />
+    <Compile Include="Data\Tasks.cs" />
+    <Compile Include="Data\TaskStatus.cs" />
+    <Compile Include="Data\TaskStatuses.cs" />
+    <Compile Include="Data\Theme.cs" />
+    <Compile Include="Data\Themes.cs" />
+    <Compile Include="Data\User.cs" />
+    <Compile Include="Data\UserIteration.cs" />
+    <Compile Include="Data\UserIterations.cs" />
+    <Compile Include="Data\Users.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkflowPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AvenueHeights\AvenueHeights.csproj">
+      <Project>{647acf66-1f4e-427f-b01d-5048779ad46a}</Project>
+      <Name>AvenueHeights</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
